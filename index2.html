@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analista de CX</title>
+
+    <link rel="stylesheet" href="assets/style2.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Formulário de Cadastro</h3>
+        </div>
+
+        <div class="form-container">
+            <!-- <div class="form-header">
+                <p>Formulário de Cadastro</p>
+            </div> -->
+            <div class="form-body">
+                <h1 class="form-title">Analista de Experiência do Usuário (CX)</h1>
+                <p>Preencha o formulário abaixo com seus dados para concorrer a uma vaga de Analista de CX na empresa RAJO </p>
+                <form>
+                    <div class="box-input">
+                        <label for="name">Nome completo: <span class="required-field">*</span></label>
+                        <input 
+                        type="text" 
+                        name="name" 
+                        id="name" 
+                        class="block"
+                        placeholder="Digite seu nome"
+                        minlength="1"
+                        maxlength="30"
+                        required
+                        >
+                    </div>
+
+                    <div class="box-input">
+                        <label for="wapp">Whatsapp: <span class="required-field">*</span></label>
+                        <input 
+                        type="text" 
+                        name="wapp" 
+                        id="wapp" 
+                        class="block"
+                        placeholder="Digite seu whatsapp no formato (DDD) 9 XXXX XXXX"
+                        required
+                        >
+                    </div>
+
+                    <div class="box-input">
+                        <label for="email">E-mail: <span class="required-field">*</span></label>
+                        <input 
+                        type="text" 
+                        name="email" 
+                        id="email" 
+                        class="block"
+                        placeholder="Digite seu e-mail"
+                        required
+                        >
+                    </div>
+
+                    <div class="box-input">
+                        <label for="city">Cidade: <span class="required-field">*</span></label>
+                        <input 
+                        type="text" 
+                        name="wapp" 
+                        id="wapp" 
+                        class="block"
+                        placeholder="Digite a cidade que você reside atualmente"
+                        required
+                        >
+                    </div>
+
+                    <div class="box-input">
+                        <p>Possui disponibilidade para trabalho remoto? <span class="required-field">*</span></p>
+                        <input type="radio" name="remote-job" id="yes">
+                        <label for="yes">Sim</label>
+                        <input type="radio" name="remote-job" id="no">
+                        <label for="no">Não</label>
+                    </div>
+
+                    <div class="box-input">
+                        <p>Possui disponibilidade para início imediato? <span class="required-field">*</span></p>
+                        <input type="radio" name="remote-job" id="yes">
+                        <label for="yes">Sim</label>
+                        <input type="radio" name="remote-job" id="no">
+                        <label for="no">Não</label>
+                    </div>
+                    
+                    <div class="box-input">
+                        <p>Nível de Conhecimento (Escala de 1 a 5): <span class="required-field">*</span></p>
+                        <label for="cs">Customer Success (CS):</label>
+                        <select name="cx" id="cx" class="block">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        
+
+                        <label for="cx">Customer Experience (CX):</label>
+                        <select name="cx" id="cx" class="block">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+
+                        <label for="customer-service">Atendimento ao Cliente:</label>
+                        <select name="customer-service" id="customer-service" class="block">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+
+                    <div class="box-input">
+                        <p>Outras Competências (Escala de 1 a 5): <span class="required-field">*</span></p>
+                        <label for="verbal-communication">Comunicação Verbal:</label>
+                        <select name="verbal-communication" id="verbal-communication" class="block">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+
+                        <label for="written-communication">Comunicação Escrita:</label>
+                        <select name="written-communication" id="written-communication" class="block">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+
+                        <label for="teamwork">Trabalho em Equipe:</label>
+                        <select name="teamwork" id="teamwork" class="block">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+
+                        <label for="problem-solving">Resolução de Problemas:</label>
+                        <select name="problem-solving" id="problem-solving" class="block">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="box-input">
+                        <label for="experience">Experiência Anterior: <span class="required-field">*</span></label>
+                        <textarea 
+                        name="experience" 
+                        id="experience" 
+                        class="block" 
+                        placeholder="Descreva sua experiência anterior relevante para a vaga, incluindo empresas em que trabalhou e cargos que ocupou."
+                        ></textarea>
+                    </div>
+
+                    <div class="box-input">
+                        <label for="interest">Porque você quer trabalhar na RAJO? <span class="required-field">*</span></label>
+                        <textarea 
+                        name="interest" 
+                        id="interest" 
+                        class="block" 
+                        placeholder="Explique brevemente seu interesse em fazer parte da equipe."
+                        ></textarea>
+                    </div>
+
+                    <div class="box-input">
+                        <label for="infos">Outras informações relevantes:</label>
+                        <textarea 
+                        name="interest" 
+                        id="interest" 
+                        class="block" 
+                        placeholder="Sinta-se à vontade para adicionar qualquer outra informação que considere importante."
+                        ></textarea>
+                    </div>
+
+                    <div class="box-input">
+                        <p>Curriculo: <span class="required-field">*</span></p>
+                        <input type="file" multiple accept="arquivo/pdf, arquivo/docx" id="curriculum" name="curriculum" required >
+                    </div>
+
+                    <input type="submit" value="Enviar" class="btn-submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
